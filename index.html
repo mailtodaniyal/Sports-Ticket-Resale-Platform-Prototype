@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seatwell - Your Seat, Your Game, Your Opportunity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <i class="fas fa-ticket-alt"></i>
+                <span>Seatwell</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#buy">Buy a Ticket</a>
+                <a href="#sell">Sell a Ticket</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Your Seat, Your Game, Your Opportunity</h1>
+            <p>The official, trusted platform for season ticket holders to resell their seats and for fans to find incredible last-minute tickets.</p>
+            <div class="cta-buttons">
+                <a href="#buy" class="btn btn-primary">Find Tickets</a>
+                <a href="#sell" class="btn btn-secondary">Sell Tickets</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="stats">
+        <div class="stat-item">
+            <div class="stat-number" id="tickets-count">0</div>
+            <div class="stat-label">Tickets Available</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" id="games-count">0</div>
+            <div class="stat-label">Upcoming Games</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Secure Transactions</div>
+        </div>
+    </div>
+
+    <section class="section" id="buy">
+        <div class="section-title">
+            <h2>Games on the Horizon</h2>
+            <p>Browse upcoming games. Tickets become available as season holders list them.</p>
+        </div>
+        <div class="games-container">
+            <div class="game-card">
+                <div class="game-image" style="background-image: url('https://source.unsplash.com/random/600x400/?stadium,soccer');">
+                    <div class="game-date">2024-01-15</div>
+                </div>
+                <div class="game-content">
+                    <h3 class="game-teams">FC Basel vs. Young Boys</h3>
+                    <div class="game-venue">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>SL Jakob-Park</span>
+                    </div>
+                    <div class="game-price">
+                        <div>
+                            <div class="price-range">CHF 45 - 120</div>
+                            <div class="price-from">From 45 CHF</div>
+                        </div>
+                    </div>
+                    <button class="game-btn">View Tickets</button>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="game-image" style="background-image: url('https://source.unsplash.com/random/600x400/?stadium,football');">
+                    <div class="game-date">2024-02-05</div>
+                </div>
+                <div class="game-content">
+                    <h3 class="game-teams">FC Basel vs. Team Alpha</h3>
+                    <div class="game-venue">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Arena XYZ</span>
+                    </div>
+                    <div class="game-price">
+                        <div>
+                            <div class="price-range">CHF 50 - 100</div>
+                            <div class="price-from">From 50 CHF</div>
+                        </div>
+                    </div>
+                    <button class="game-btn">View Tickets</button>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="game-image" style="background-image: url('https://source.unsplash.com/random/600x400/?stadium,sport');">
+                    <div class="game-date">2024-01-22</div>
+                </div>
+                <div class="game-content">
+                    <h3 class="game-teams">FC Basel vs. FC Zurich</h3>
+                    <div class="game-venue">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>SL Jakob-Park</span>
+                    </div>
+                    <div class="game-price">
+                        <div>
+                            <div class="price-range">CHF 35 - 85</div>
+                            <div class="price-from">From 35 CHF</div>
+                        </div>
+                    </div>
+                    <button class="game-btn">View Tickets</button>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="game-image" style="background-image: url('https://source.unsplash.com/random/600x400/?football,stadium');">
+                    <div class="game-date">2024-02-12</div>
+                </div>
+                <div class="game-content">
+                    <h3 class="game-teams">FC Basel vs. Team Bravo</h3>
+                    <div class="game-venue">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Arena XYZ</span>
+                    </div>
+                    <div class="game-price">
+                        <div>
+                            <div class="price-range">CHF 46 - 110</div>
+                            <div class="price-from">From 46 CHF</div>
+                        </div>
+                    </div>
+                    <button class="game-btn">View Tickets</button>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="game-image" style="background-image: url('https://source.unsplash.com/random/600x400/?soccer,field');">
+                    <div class="game-date">2024-01-29</div>
+                </div>
+                <div class="game-content">
+                    <h3 class="game-teams">FC Basel vs. Grasshoppers</h3>
+                    <div class="game-venue">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>SL Jakob-Park</span>
+                    </div>
+                    <div class="game-price">
+                        <div>
+                            <div class="price-range">CHF 33 - 90</div>
+                            <div class="price-from">From 33 CHF</div>
+                        </div>
+                    </div>
+                    <button class="game-btn">View Tickets</button>
+                </div>
+            </div>
+            <div class="game-card">
+                <div class="game-image" style="background-image: url('https://source.unsplash.com/random/600x400/?football,game');">
+                    <div class="game-date">2024-02-19</div>
+                </div>
+                <div class="game-content">
+                    <h3 class="game-teams">FC Basel vs. Team Charlie</h3>
+                    <div class="game-venue">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Arena XYZ</span>
+                    </div>
+                    <div class="game-price">
+                        <div>
+                            <div class="price-range">CHF 36 - 90</div>
+                            <div class="price-from">From 36 CHF</div>
+                        </div>
+                    </div>
+                    <button class="game-btn">View Tickets</button>
+                </div>
+            </div>
+        </div>
+        <div class="view-all">
+            <a href="#" class="view-all-btn">
+                View All Games
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="section how-it-works" id="sell">
+        <div class="section-title">
+            <h2>How Seatwell Works</h2>
+            <p>Simple, secure, and efficient ticket resale for everyone</p>
+        </div>
+        <div class="steps">
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-ticket-alt"></i>
+                </div>
+                <h3>Season Ticket Holders</h3>
+                <p>List tickets you can't use on our secure platform in just a few clicks. Set your price or use our smart pricing.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <h3>Browse & Buy</h3>
+                <p>Fans discover and purchase available tickets easily with our intuitive search and seat selection tools.</p>
+            </div>
+            <div class="step">
+                <div class="step-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Secure Transfer</h3>
+                <p>Safe payment and instant ticket transfer for everyone. We handle all the logistics so you don't have to.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section testimonials">
+        <div class="section-title">
+            <h2>What Our Users Say</h2>
+            <p>Don't just take our word for it - hear from our community</p>
+        </div>
+        <div class="testimonial-cards">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"As a season ticket holder, Seatwell has been a game-changer. I can easily sell tickets for games I can't attend and make some money back."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">MK</div>
+                    <div class="author-info">
+                        <h4>Michael K.</h4>
+                        <p>Season Ticket Holder</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"I've found amazing last-minute tickets to sold-out games through Seatwell. The process is so smooth and the tickets are always legitimate."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">SR</div>
+                    <div class="author-info">
+                        <h4>Sarah R.</h4>
+                        <p>Regular Buyer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"The platform is incredibly easy to use both as a seller and buyer. The customer support is responsive and helpful when needed."</p>
+                <div class="testimonial-author">
+                    <div class="author-avatar">TJ</div>
+                    <div class="author-info">
+                        <h4>Thomas J.</h4>
+                        <p>Verified User</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section cta-section">
+        <h2>Ready to Experience Seatwell?</h2>
+        <p>Join thousands of sports fans who are buying and selling tickets the smart way.</p>
+        <a href="#" class="btn btn-primary pulse">Get Started Now</a>
+    </section>
+
+    <footer id="contact">
+        <div class="footer-content">
+            <div class="footer-about">
+                <div class="footer-logo">
+                    <i class="fas fa-ticket-alt"></i>
+                    <span>Seatwell</span>
+                </div>
+                <p>The trusted resale partner for sports clubs and their fans. We ensure every seat is an opportunity.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#buy">Buy a Ticket</a></li>
+                    <li><a href="#sell">Sell a Ticket</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> hello@seatwell.com</li>
+                    <li><i class="fas fa-phone"></i> +41 78 773 72 74</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Basel, Switzerland</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Seatwell. All rights reserved.</p>
+        </div>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
